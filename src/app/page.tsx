@@ -9,7 +9,7 @@ export default function Home() {
       <div className="max-w-prose space-y-8">
         <div className="flex items-center">
           <h1 className="font-extrabold text-5xl grow">XPick</h1>
-          <Link href="https://github.com/nickbabcock/rl-web">
+          <Link href="https://github.com/nickbabcock/xpick">
             <GithubIcon
               className="dark:fill-white h-8 w-8"
               alt="XPick Github Repo"
