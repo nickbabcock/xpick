@@ -9,6 +9,11 @@
     "format": "prettier --write src *.json *.mjs *.ts",
     "lint": "next lint"
   },
+  "prettier": {
+    "plugins": [
+      "prettier-plugin-tailwindcss"
+    ]
+  },
   "dependencies": {
     "next": "14.2.6",
     "react": "18.3.1",

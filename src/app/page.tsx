@@ -8,10 +8,10 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center gap-8 p-8 sm:p-12 md:p-16 lg:p-20 xl:p-24">
       <div className="max-w-prose space-y-8">
         <div className="flex items-center">
-          <h1 className="font-extrabold text-5xl grow">XPick</h1>
+          <h1 className="grow text-5xl font-extrabold">XPick</h1>
           <Link href="https://github.com/nickbabcock/xpick">
             <GithubIcon
-              className="dark:fill-white h-8 w-8"
+              className="h-8 w-8 dark:fill-white"
               alt="XPick Github Repo"
             />
           </Link>

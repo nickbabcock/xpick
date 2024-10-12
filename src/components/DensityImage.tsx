@@ -25,13 +25,13 @@ export function DensityImage() {
 
   return (
     <>
-      <div className="max-w-prose flex flex-col gap-2">
+      <div className="flex max-w-prose flex-col gap-2">
         <p>Choose the image pixel densities to test:</p>
-        <div className="flex gap-2 flex-wrap justify-center">
+        <div className="flex flex-wrap justify-center gap-2">
           {densityOptions.map((x) => (
             <label
               key={x}
-              className="w-[85px] px-3 py-2 text-white bg-emerald-700 hover:bg-emerald-800 active:bg-emerald-900 transition-colors flex items-center"
+              className="flex w-[85px] items-center bg-emerald-700 px-3 py-2 text-white transition-colors hover:bg-emerald-800 active:bg-emerald-900"
             >
               <input
                 type="checkbox"
@@ -46,7 +46,7 @@ export function DensityImage() {
                     router.push(pathname + "?dims=" + newDims);
                   }
                 }}
-                className="w-4 h-4"
+                className="h-4 w-4"
               />
               <span className="w-2" />
               {x}x

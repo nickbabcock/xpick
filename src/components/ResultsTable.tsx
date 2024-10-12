@@ -16,11 +16,11 @@ export function ResultsTable() {
       <tbody>
         <tr>
           <td>Device pixel ratio</td>
-          <td className="text-right pl-8">{pixelRatio.toFixed(2)}x</td>
+          <td className="pl-8 text-right">{pixelRatio.toFixed(2)}x</td>
         </tr>
         <tr>
           <td>Selected image pixel density</td>
-          <td className="text-right pl-8">{selectedDensity.toFixed(2)}x</td>
+          <td className="pl-8 text-right">{selectedDensity.toFixed(2)}x</td>
         </tr>
       </tbody>
     </table>

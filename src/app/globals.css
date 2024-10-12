@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 a {
-  @apply text-teal-700 dark:text-teal-400 underline underline-offset-2;
+  @apply text-teal-700 underline underline-offset-2 dark:text-teal-400;
 }
